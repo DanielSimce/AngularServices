@@ -1,0 +1,5 @@
+<ul class="list-group">
+    <li class="list-group-item" *ngFor="let x of active;let i = index">{{ x }}
+        <a href="#" (click)="onSetToInactive(i)">Set to Inactive</a>
+    </li>
+</ul>
